@@ -1,0 +1,24 @@
+& when (@critical) {
+}
+
+@font-size__s: 1rem;
+.lib-tooltip(@_tooltip-position: top) {}
+.lib-table() {}
+.lib-table-bordered(@_table_type: horizontal) {}
+
+& when not (@critical) {
+    @import "Pixlogix_ProductAttachments::css/source/_extend.less";
+
+    .pprat-attachment-wrapper.boxview ul li.pprat-attachment-item {
+        border: 0;
+    }
+    .pprat-attachment-wrapper.boxview ul li.pprat-attachment-item .pprat-item-wrap .pprat-attachment-icon {
+        margin-right: 8px;
+    }
+    .pprat-attachment-wrapper.boxview ul li.pprat-attachment-item .pprat-item-wrap .pprat-attachment-link a {
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
