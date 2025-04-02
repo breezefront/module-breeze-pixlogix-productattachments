@@ -10,6 +10,9 @@
                             <item name="Pixlogix_ProductAttachments/js/attachment" xsi:type="array">
                                 <item name="path" xsi:type="string">Pixlogix_ProductAttachments/js/attachment</item>
                             </item>
+                            <item name="matchheight" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezePixlogixProductattachments/js/matchheight</item>
+                            </item>
                         </item>
                     </item>
                 </argument>
